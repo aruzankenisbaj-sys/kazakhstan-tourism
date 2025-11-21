@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <title>Қазақстан туралы</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1 class="fade-title">Қазақстан туралы</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Басты бет</a>
+        <a href="kazakhstan.html">Қазақстан туралы</a>
+        <a href="tours.html">Турлар</a>
+        <a href="contact.html">Байланыс</a>
+    </nav>
+
+    <section>
+        <h2>Қазақстан — Ұлы Даланың жүрегі</h2>
+        <p>Қазақстан — Еуразияның орталығында орналасқан алып мемлекет...</p>
+
+        <button class="more-btn" onclick="toggleMore()">Толығырақ</button>
+
+        <div id="more-text" class="hidden">
+            <div class="info-box">
+                <h3>Тарихы</h3>
+                <p>Ежелгі сақ, ғұн, үйсін тайпаларынан бастау алады...</p>
+            </div>
+
+            <div class="info-box">
+                <h3>Табиғаты</h3>
+                <p>Тянь-Шань, Алтай таулары, Балқаш көлі, Бурабай орманы...</p>
+            </div>
+
+            <div class="info-box">
+                <h3>Қалалары</h3>
+                <ul>
+                    <li><b>Астана</b> — елордa</li>
+                    <li><b>Алматы</b> — мәдениет орталығы</li>
+                    <li><b>Түркістан</b> — рухани қала</li>
+                    <li><b>Шымкент</b> — жылы қала, мегаполис</li>
+                    <li><b>Ақтау</b> — Каспий жағасы</li>
+                </ul>
+            </div>
+
+            <div class="info-box">
+                <h3>Қызықты фактілер</h3>
+                <p>Қазақстанда ғарышқа алғашқы қадам жасалған Байқоңыр орналасқан.</p>
+                <p>Елдің аумағы әлем бойынша 9-орында.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>© 2025 Аружан,Жандаулет</footer>
+
+    <script>
+function toggleMore() {
+    document.getElementById("more-text").classList.toggle("hidden");
+}
+    </script>
+
+</body>
+</html>
